@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@drawable/butbg" 
+   >
+    
+<com.loopj.android.image.SmartImageView 
+    android:layout_width="120dp"
+    android:layout_height="90dp"
+    android:id="@+id/siv_listview_item_icon"
+   android:src="@android:color/white"
+   />
+<TextView 
+    android:id="@+id/tv_listview_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:layout_marginLeft="3dp"
+    android:layout_toRightOf="@id/siv_listview_item_icon"
+    android:text="3Q大战适马的：成功上的黑丝"
+    android:textColor="@android:color/black"
+    android:textSize="17sp"
+    />
+<TextView 
+    android:id="@+id/tv_listview_datail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_margin="2dp"
+    android:layout_alignLeft="@id/tv_listview_title"
+    android:layout_below="@id/tv_listview_title"
+    android:text="我自带你点击就输但时间长你是屌丝逆袭上次耐心刹那间是时间长你时间时间长你是屌丝逆袭上次耐心长你是屌丝逆袭上次耐心是屌丝逆袭上次耐心"
+    android:textColor="#3D4245"
+    android:textSize="14sp"
+    android:maxLines="4"
+    android:ellipsize="end"
+    />
+<TextView 
+    android:id="@+id/tv_listview_item_comment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="66赞"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:textColor="@color/lanse"
+    
+    />
+
+</RelativeLayout>

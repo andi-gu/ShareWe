@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".SettingActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+               <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+             android:id="@+id/tv_back_btn"
+            >
+        
+           <TextView 
+               android:layout_marginLeft="2dp"
+             android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:background="@drawable/zoujiantou"
+            android:layout_gravity="center_vertical"
+               />
+            
+         <TextView
+         
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_gravity="center_vertical"
+               android:gravity="center_vertical|center_horizontal"
+             android:paddingLeft="4dp"
+             android:text="@string/logoname"
+             android:textColor="#000"
+             android:textSize="17sp" >
+
+        </TextView>
+</LinearLayout>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="@string/shezhi"
+            android:textColor="#000000"
+            android:textSize="18sp" >
+        </TextView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/xuan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/logoname"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+         android:paddingTop="1dip"
+        android:paddingBottom="1dip"
+        android:background="@drawable/comment_input"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_marginLeft="30dip"
+            android:gravity="center_vertical"
+            android:text="清除缓存"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <LinearLayout
+           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/goto_img"
+                android:layout_width="40dip"
+                android:layout_height="10dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dip"
+                android:gravity="center_vertical"
+                android:src="@drawable/home_index_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:layout_marginTop="115dp"
+             android:layout_width="wrap_content"
+          	  android:layout_height="20dp"
+          	  android:text="开发者：Andi"
+          	  android:layout_gravity="center_horizontal"
+            />
+        <TextView 
+             android:layout_width="wrap_content"
+          	  android:layout_height="20dp"
+          	  android:layout_gravity="center_horizontal"
+          	  android:text="QQ邮箱：1793228690@qq.com"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical" 
+   >
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+               android:layout_gravity="center_horizontal"
+         	 android:text="Copyright © 2015 - 2016 Cool Inc. All Rights Reserved"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

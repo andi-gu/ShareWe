@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+    <style name="AppBaseTheme" parent="Transparent"></style>
+
+
+
+   <style name="Transparent" parent="android:Theme.Light">
+  	   <item name="android:windowNoTitle">true</item>
+       <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="fontStyle" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    
+   
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_btn_bg.png",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable-hdpi\\home_btn_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_tabhost_bg.png",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable-hdpi\\bg_tabhost_bg.png"
+    }
+]

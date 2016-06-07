@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+       android:background="@color/baise"
+     >
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="60dp"
+      android:id="@+id/linl_title"
+      android:background="@color/huise"
+     android:orientation="horizontal"
+     android:layout_marginTop="5dp"
+     android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+      >
+    
+      <cn.guyu.util.XCRoundImageView
+            android:id="@+id/xiaohu_img_tx"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp"
+           android:layout_gravity="center_vertical"
+            android:src="@drawable/xuan" />
+      
+      <LinearLayout
+          android:id="@+id/linl_title_xh"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="8dp"
+          android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/list_text_xiaohua"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:gravity="center|left"
+              android:text=""
+              android:textSize="16sp" 
+              android:ellipsize="end"
+              android:singleLine="true"
+              android:textColor="#707070"/>
+          
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/clock"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_alignBottom="@+id/list_data__xiaohua"
+                android:layout_alignTop="@+id/list_data__xiaohua"
+                android:src="@drawable/clock" />
+
+             <TextView
+                 android:id="@+id/list_data__xiaohua"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_toRightOf="@+id/clock"
+                 android:text="半小时前"
+                 android:textColor="#707070" />
+            
+        </RelativeLayout>  
+      
+      </LinearLayout>
+      
+  </LinearLayout>
+   
+  <TextView 
+      android:id="@+id/tv_baise"
+      android:layout_below="@id/linl_title"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/baise"
+     />
+ 
+    
+<!--  <ImageView 
+     android:layout_below="@id/linl_title"
+     android:scaleType="fitXY"
+     android:maxHeight="500dp"
+     android:adjustViewBounds="true"
+   
+     android:gravity="center_horizontal"
+
+      android:id="@+id/list_image_xiaohua"
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+    android:src="@drawable/xuan"
+     /> -->
+  
+	  <LinearLayout 
+	       android:layout_below="@id/tv_baise"
+	       android:id="@+id/linl_img_haha"
+	      android:layout_height="wrap_content"
+	      android:layout_width="match_parent"
+	    
+	      android:background="@color/huise"
+	       
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	      >
+			     <ImageView 
+			    android:layout_margin="5dp"
+			     android:id="@+id/list_image_xiaohua"
+			     android:layout_width="fill_parent"
+				 android:layout_height="300dp"
+				 android:scaleType="fitCenter"
+				  android:maxHeight="500dp"
+			 	  android:adjustViewBounds="true"
+			      android:src="@drawable/xuan"
+			     />
+	      
+	      
+	      
+	      
+	  </LinearLayout>
+     
+    
+</RelativeLayout>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="@string/me"
+            android:textColor="#3D4245"
+            android:textSize="18sp" >
+        </TextView>
+    </FrameLayout> -->
+
+     <!-- 题头 --> 
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/huise"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+<!-- 题头 -->
+         <LinearLayout 
+				   	android:layout_width="match_parent"
+				   	 android:layout_height="50dp"
+				   	 android:orientation="horizontal"
+				   	android:layout_marginLeft="5dp"
+				   	android:layout_marginRight="5dp"
+				   	     >
+          
+        <TextView
+            
+            android:layout_height="match_parent"
+          android:layout_width="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+              android:text="@string/me"
+            android:textColor="#3D4245"
+            android:textSize="19sp" >
+
+        </TextView>
+        
+       
+        </LinearLayout>    
+    </FrameLayout>
+
+<!--     灰色线条
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FCFCFC" >
+    </LinearLayout>
+ -->
+    <RelativeLayout
+        android:id="@+id/LinearLayout_roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/huise" >
+
+        <cn.guyu.util.MarqueeTextView
+            android:id="@+id/tv_roll"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=" 温馨提示:点击头像栏尽快完善个人信息"
+            android:textColor="#3D4245"
+            android:textSize="13sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!-- 下面布局 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DDDDDD"
+        android:orientation="vertical" >
+
+        <!-- 个人信息 -->
+
+        <FrameLayout
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="85dp" >
+
+            <Button
+                android:id="@+id/framegeren"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/butbg" />
+
+            <cn.guyu.util.XCRoundImageView
+                android:id="@+id/metoux"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+               />
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="90dp"
+                    android:gravity="bottom"
+                    android:text="@string/name"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_usersex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="90dp"
+                    android:gravity="center"
+                    android:text="@string/sex"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="15dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/youjiantou" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="bottom"
+                android:text="消息"
+                android:textColor="#3D4245"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- 消息 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/comment_input"
+            android:orientation="vertical" >
+
+            <!-- 我发布的 -->
+
+            <LinearLayout
+                android:id="@+id/linearLayout_fabu"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/butbg" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/fabu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:text="我炫过的"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <!-- 灰色线条 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/huise" >
+            </LinearLayout>
+            <!-- 我的回复 -->
+
+            <LinearLayout
+                android:id="@+id/linearLayout_huifu"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/butbg" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/huifu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:text="评论回复"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- 灰色线条 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/huise" >
+            </LinearLayout>
+            <!-- 我收到的赞 -->
+
+            <LinearLayout
+                android:id="@+id/linearLayout_zan"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/butbg"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/like" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="收到的赞数"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/zancool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="0.30"
+                    android:text="Cool"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="bottom"
+                android:text="关于"
+                android:textColor="#3D4245"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 关于 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/comment_input"
+            android:orientation="vertical" >
+
+            <!-- 关于Cool -->
+
+            <LinearLayout
+                android:id="@+id/linearLayout_about"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/butbg" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/xiaoxi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:text="关于炫Cool"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <!-- 灰色线条 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/huise" >
+            </LinearLayout>
+            <!-- 退出当前账户 -->
+
+            <LinearLayout
+                android:id="@+id/linearLayout_tuichu"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/butbg" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/shezhi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:text="退出当前账户"
+                    android:textColor="#3D4245"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_grid.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_image_grid.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_back.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\dialog_back.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fashion_view.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\fashion_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\show_griditem_addpic.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\show_griditem_addpic.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_bucket.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_image_bucket.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_view.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\login_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_detail_fragement_share.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\image_detail_fragement_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customprogressdialog.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_share.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\item_gridview_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentshow.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\fragmentshow.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_activity.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\start_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_xiaohua.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\listview_item_xiaohua.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_bucket.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\item_image_bucket.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mapimage.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_mapimage.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hah_item.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\hah_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_grid.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\item_image_grid.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_my.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentme.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\fragmentme.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_view.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\register_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentshop.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\fragmentshop.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentlook.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\fragmentlook.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selectimg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_selectimg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\load_more_footer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_detail_share.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\image_detail_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_aboutcool.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\activity_aboutcool.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmenthome.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\fragmenthome.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_share.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\list_item_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\web_diy.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\web_diy.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_item_view.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\tab_item_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guyu.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\guyu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_image.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\layout\\popwindow_image.xml"
+    }
+]

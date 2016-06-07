@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	android:gravity="center"
+     android:background="@drawable/bg_transparent"
+     >
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_content"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="@color/baise" >
+        
+        <TextView
+            android:id="@+id/dialog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出此次编辑？" 
+            android:textSize="18sp"  
+            android:textColor="#121212"
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="15dp"
+           android:gravity="top|left"
+            />   
+            
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+         
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+            <Button 
+             
+                android:layout_height="40dp"
+				android:layout_width="70dp"
+				android:id="@+id/tv_dialog_qx"                
+                android:textColor="#46557E"
+                android:textSize="18sp"
+                android:text="取消"
+              	android:background="@drawable/butbg"
+               
+                android:gravity="center"
+               
+                />
+
+            <Button
+                android:id="@+id/tv_dialog_back"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="退出"
+                android:textColor="#F53535"
+                android:textSize="18sp" 
+            	android:background="@drawable/butbg"
+                 />
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+    
+    
+</RelativeLayout>

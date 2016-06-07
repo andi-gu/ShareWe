@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_ins.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\fade_ins.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_out.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\push_up_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in_2.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\push_bottom_in_2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_open.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\activity_open.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\anim\\progress_round.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\anim\\progress_round.xml"
+    }
+]

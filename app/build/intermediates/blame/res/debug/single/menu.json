@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\map.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\map.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\app_start.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\app_start.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\setting.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\setting.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\hah_item.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\hah_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\register.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\register.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\about_cool.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\about_cool.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ghgff.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\ghgff.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fashion.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\fashion.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\my.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\menu\\my.xml"
+    }
+]

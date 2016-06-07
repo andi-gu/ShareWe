@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fragmenttabhost"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 安卓读写权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 访问WiFi状态. 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 修改WiFi状态. 发起WiFi扫描, 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 访问网络状态, 检测网络的可用性. 需要网络运营商相关信息用于网络定位 -->
+    <!-- 判断网络状态 -->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="cn.guyu.NetUtils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/xuan"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="u1G9Ckq7eyUGahS1iSit6fDNlADivXx6" />
+
+        <!-- android:launchMode="singleTask" -->
+        <!-- 防止输入框挤压屏幕 -->
+        <!-- android:windowSoftInputMode="stateVisible|adjustResize" 貌似没作用 -->
+        <activity
+            android:name="com.guyu.fragmenttabhost.AppStartActivity"
+            android:icon="@drawable/app_logo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.MainActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.SettingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.FashionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_fashion" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.MyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_my" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.AboutCoolActivity"
+            android:label="@string/title_activity_about_cool" >
+        </activity>
+        <activity
+            android:name="com.guyu.fragmenttabhost.HahItemActivity"
+            android:label="@string/title_activity_hah_item" >
+        </activity>
+        <activity android:name="com.guyu.imageXz.ImageGridActivity" >
+        </activity>
+        <activity
+            android:name="com.guyu.imageXz.PublishedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity android:name="com.guyu.imageXz.PhotoActivity" >
+        </activity>
+        <activity android:name="com.guyu.imageXz.TestPicActivity" >
+        </activity>
+
+        <!--
+        <activity
+            android:name="com.example.fragmenttabhost.AppStartActivity"
+            android:label="@string/title_activity_app_start" >
+        </activity>
+        -->
+
+        <activity android:name="com.guyu.fragmenttabhost.WebDIYActivity" >
+        </activity>
+        <activity android:name="com.guyu.fragmenttabhost.MapImageActivity" >
+        </activity>
+        <activity android:name="com.guyu.imageShare.ImagePagerActivity" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

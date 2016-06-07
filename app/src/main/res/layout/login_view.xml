@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".SettingActivity" >
+
+   
+    <!-- <FrameLayout
+        android:id="@+id/FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+只需要改成button按钮，设置两个不一样颜色的按钮，一个正常，一个点击的色彩/设置为背景就ok了
+                <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+             android:id="@+id/tv_back_btn"
+            >
+        
+           <TextView 
+               android:layout_marginLeft="2dp"
+             android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:background="@drawable/zoujiantou"
+            android:layout_gravity="center_vertical"
+               />
+            
+         <TextView
+         
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_gravity="center_vertical"
+               android:gravity="center_vertical|center_horizontal"
+             android:paddingLeft="4dp"
+             android:text="@string/logoname"
+             android:textColor="#000"
+             android:textSize="17sp" >
+
+        </TextView>
+</LinearLayout>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="@string/logintxt"
+            android:textColor="#000000"
+            android:textSize="18sp" >
+        </TextView>
+    </FrameLayout> -->
+
+    <LinearLayout
+        android:layout_marginTop="86dp"
+        android:id="@+id/LinearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+     
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/app_logo" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/logoname"
+            android:textColor="@color/lanse"
+            android:textSize="20sp" />
+    </LinearLayout>
+ <!-- 账号 -->   
+
+       <LinearLayout
+           android:id="@+id/LinearLayout2"
+           android:layout_width="270dp"
+           android:layout_height="50dp"
+           android:layout_alignLeft="@+id/tv_hengxian"
+           android:layout_alignRight="@+id/tv_hengxian"
+           android:layout_below="@id/LinearLayout11"
+           android:layout_centerVertical="true"
+           android:background="@null"
+           android:gravity="center_vertical"
+           android:orientation="horizontal"
+           android:paddingBottom="1dp"
+           android:paddingTop="1dp" >
+
+        <TextView
+      	    android:layout_width="20dp"
+            android:layout_height="20dp"
+          
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|right"
+           
+            
+            android:background="@drawable/ronghu"
+           />
+         <TextView
+      	    android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+           android:background="@color/baise"/>
+        
+        
+         <EditText
+            android:id="@+id/et_d_id"
+            android:layout_width="match_parent"
+ 			android:layout_height="40dip"
+            android:gravity="center|left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="10dp"
+            android:hint="手机号"
+            android:maxLength="11"
+            android:phoneNumber="true"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:layout_weight="0.46"
+            android:background="@null"
+         	 >
+			 <requestFocus />
+          
+        </EditText>
+        
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hengxian"
+        android:layout_width="230dp"
+        android:layout_height="1dp"
+      android:layout_centerHorizontal="true"
+        android:layout_below="@id/LinearLayout2"
+        android:background="@color/baise" />
+       
+    <!-- 密码 -->
+
+          <LinearLayout
+              android:id="@+id/LinearLayout3"
+              android:layout_width="270dp"
+              android:layout_height="50dp"
+              android:layout_alignLeft="@+id/tv_hengxian1"
+              android:layout_alignRight="@+id/tv_hengxian1"
+              android:layout_below="@id/LinearLayout2"
+              android:layout_centerVertical="true"
+              android:layout_marginTop="10dp"
+              android:background="@null"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingBottom="1dp"
+              android:paddingTop="1dp" >
+
+        <TextView
+             
+           android:background="@drawable/mima"
+             android:gravity="center_vertical|right"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            
+            android:layout_marginRight="10dp"/>
+          <TextView
+      	    android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+           android:background="@color/baise"/>
+        
+        <EditText
+            android:id="@+id/et_d_mima"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="10dip"
+            android:background="@null"
+            android:inputType="textPassword" >
+         
+        </EditText>
+    </LinearLayout>
+    
+           <TextView
+        android:id="@+id/tv_hengxian1"
+        android:layout_width="230dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+          android:layout_centerHorizontal="true"
+        android:layout_below="@id/LinearLayout3"
+        android:background="@color/baise" />
+           
+           <Button
+               android:id="@+id/login1"
+               android:layout_width="240dp"
+               android:layout_height="46dp"
+               android:layout_alignLeft="@+id/chongz1"
+               android:layout_alignRight="@+id/tv_hengxian1"
+               android:layout_below="@id/tv_hengxian1"
+               android:layout_marginTop="30dp"
+               android:background="#5CBFDE"
+               android:text="@string/logintxt"
+               android:textSize="14sp" />
+
+          <Button
+              android:id="@+id/chongz1"
+              android:layout_width="40dp"
+              android:layout_height="30dp"
+              android:layout_marginTop="5dp"
+              android:layout_alignLeft="@+id/tv_hengxian1"
+              android:layout_below="@+id/login1"
+             android:background="#5CBFDE"
+              android:text="@string/chongz"
+              android:textColor="#000000"
+              android:textSize="14sp"/>
+
+          <Button
+              android:id="@+id/tv_zhuce"
+              android:layout_width="40dp"
+              android:layout_height="30dp"
+              android:layout_alignBaseline="@+id/chongz1"
+              android:layout_alignBottom="@+id/chongz1"
+              android:layout_alignRight="@+id/login1"
+               android:background="#5CBFDE"
+               android:text="@string/registertxt"
+              android:textColor="#000000"
+              android:textSize="14sp" />
+
+</RelativeLayout>

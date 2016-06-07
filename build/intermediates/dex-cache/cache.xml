@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\showapi_sdk_android.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bdef044d70f80ee3bc0efa174b3be9f7e57f9b37">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\showapi_sdk_android_8890ba7151ec2f49d822c6be264c8a8894b7cec5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\android-support-v4_5f19aef2e00bc3c0539ff1c34aec1eb527d3019a.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f563b28b825c1a9a4544b392268228f38b2b74e5">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_b364402f732ccaf571d1e4caa5e99c5e5d259786.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_227d39abeb82661c23da46f2e745b507685e828b.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\afinal_0.5.1_bin_27368fc8bc2350585fae1abb4dd63b5ebbdcd1b1.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\Volley.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\Volley_0940b964b4f3cef384802bc05d2766fb7df39f14.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ShareWe\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6_c7507790d34990938d5752d50f07eb25c26cc6d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\AndroidStudioProjects\ShareWe\app\build\intermediates\pre-dexed\debug\gson-2.3.1_3d67bc6296728dce11d45e3fe02a4d0f0bf336e9.jar" />
+    </item>
+
+</items>

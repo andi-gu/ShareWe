@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_bt_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\text_bt_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_nobgd.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_nobgd.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\butbg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\butbg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_focusl.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\point_focusl.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_me_btn.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\tab_me_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\butbg1.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\butbg1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_while.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\text_while.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tvbg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\tvbg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\startbg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\startbg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgd_relatly_line.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bgd_relatly_line.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_shop_btn.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\tab_shop_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_shanchu.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_shanchu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_looks_btn.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\tab_looks_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_quxiao.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_quxiao.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_color.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_queding.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_queding.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home_btn.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\tab_home_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_tianjia.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_tianjia.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_login_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_login_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_border.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\img_border.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_background.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\selector_tab_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_nomal.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\point_nomal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_register_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_register_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_show_btn.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\tab_show_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_add_pic.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_add_pic.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\point_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShareWe\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_setting_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\ShareWe\\app\\src\\main\\res\\drawable\\bt_setting_bg.xml"
+    }
+]

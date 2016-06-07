@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+ 
+ <!-- 题头 --> 
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/huise"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+<!-- 题头 -->
+         <LinearLayout 
+				   	android:layout_width="match_parent"
+				   	 android:layout_height="50dp"
+				   	 android:orientation="horizontal"
+				   	android:layout_marginLeft="5dp"
+				   	android:layout_marginRight="5dp"
+				   	     >
+          
+       <TextView
+           android:id="@+id/tv_quxiao_btn_fb"
+             android:layout_width="50dp"
+             android:layout_height="match_parent"
+             android:gravity="center_vertical|center_horizontal"
+             android:text="@string/qx"
+             android:textColor="@drawable/text_color"
+             android:textSize="17sp" 
+             android:layout_gravity="center_vertical"/>
+
+        
+        <TextView
+               android:layout_weight="1"
+			  android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/xuan"
+            android:textColor="#3D4245"
+            android:textSize="20sp" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/activity_selectimg_send"
+              android:layout_width="50dp"
+             android:layout_height="match_parent"
+           android:text="发送"
+           android:textSize="17sp" 
+            android:textColor="@drawable/text_color"
+            android:gravity="center_vertical|center_horizontal" 
+            />
+        
+        </LinearLayout>    
+    </FrameLayout>
+    
+   <!-- 灰线 --> 
+    <LinearLayout
+        android:id="@+id/huixian01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/FrameLayout1"
+        android:background="@color/huise"
+        android:orientation="horizontal" >
+    </LinearLayout>
+ 
+
+    <EditText
+        android:id="@+id/et_fabu"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        android:gravity="left|top"
+        android:hint="分享您的那点新鲜事儿..."       
+        android:background="@null" >
+    </EditText>
+
+      <GridView 
+        android:id="@+id/noScrollgridview"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:horizontalSpacing="3dp"        
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" >
+    </GridView> 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/darker_gray"
+        >
+       </LinearLayout>
+      <LinearLayout 
+          android:background="@drawable/butbg"
+         android:layout_marginLeft="12dp"
+          android:layout_width="fill_parent"
+          android:layout_height="40dp"
+          android:orientation="horizontal"
+          android:id="@+id/bt_linl_address"
+          android:layout_gravity="center"
+         >
+          <ImageView 
+             
+              android:id="@+id/image_address"
+              android:layout_width="15dp"
+              android:layout_height="40dp"
+              android:src="@drawable/address"
+             />
+          <TextView 
+             android:gravity="center"
+               android:layout_marginLeft="8dp"
+              android:id="@+id/tv_address"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text=""
+              android:textSize="15sp" />
+          
+      </LinearLayout>   
+         <TextView 
+             android:gravity="center"
+               android:layout_marginLeft="18dp"
+              android:id="@+id/tv_addressImg"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="点击这里为位置添加照片"
+              android:textColor="@android:color/holo_blue_light"
+              android:textSize="15sp" 
+              android:visibility="gone"/>
+        
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:id="@+id/hahaimage_pop_layout"
+     
+     >
+
+     <uk.co.senab.photoview.PhotoView
+       android:id="@+id/iv_hahaItem"
+       android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+     <TextView 
+         android:id="@+id/tv_haha_content"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/baise"
+         android:textSize="16sp"
+         android:gravity="center"
+         android:layout_gravity="bottom"
+          android:background="#33000000"
+         />
+   
+ 
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="top"
+        android:background="@android:color/transparent" >
+
+        <ImageView
+             android:focusable="true"
+            android:id="@+id/haha_back_bt"
+               android:layout_gravity="center"
+            android:layout_width="31dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/haha_back" />
+		<TextView 
+	   		  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	     android:layout_weight="5"
+	 	   />
+     
+        <ImageView
+            android:focusable="true"
+            android:id="@+id/haha_save_bt"
+            android:layout_gravity="center"
+             android:layout_width="31dp"
+           	 android:layout_height="20dp"
+          	 android:layout_weight="1"
+            android:src="@drawable/haha_save" />
+    </LinearLayout>
+
+       <ProgressBar
+           android:id="@+id/progressBar_loading"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" 
+           android:layout_gravity="center"
+           android:visibility="gone"
+          />
+
+      
+</FrameLayout>
